@@ -15,7 +15,7 @@ public class JenkinsDemoApplication {
 	}
 	@GetMapping("/")
 	public String getMessage() {
-		return "Hello World First Proje";
+		return "Hello World First Project";
 	}
 	
 }
