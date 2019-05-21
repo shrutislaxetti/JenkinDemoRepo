@@ -44,6 +44,12 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<pluginRepositories>
+  <pluginRepository>
+    <id>Maven-Artifactory-Plugin</id>
+    <url>https://jcenter.bintray.com</url>
+  </pluginRepository>
+</pluginRepositories>
 	</build>
 
 
