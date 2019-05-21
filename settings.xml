@@ -4,7 +4,7 @@
         <profile>
             <id>artifactory-plugin-properties</id>
             <properties>
-                <username>Admin </username>
+                <username>vijayadmin </username>
                 <password>Aqsw@321</password>
             </properties>
         </profile>
