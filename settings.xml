@@ -2,7 +2,7 @@
 <settings>
     <profiles>
         <profile>
-            <id>artifactory-plugin-properties</id>
+            <id>central</id>
             <properties>
                 <username>vijayadmin </username>
                 <password>Aqsw@321</password>
@@ -11,6 +11,6 @@
     </profiles>
 
     <activeProfiles>
-        <activeProfile>artifactory-plugin-properties</activeProfile>
+        <activeProfile>central</activeProfile>
     </activeProfiles>
 </settings>
