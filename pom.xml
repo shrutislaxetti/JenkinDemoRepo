@@ -44,13 +44,47 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<pluginRepositories>
-  <pluginRepository>
-    <id>Maven-Artifactory-Plugin</id>
-    <url>https://jcenter.bintray.com</url>
-  </pluginRepository>
-</pluginRepositories>
+		
+ 
 	</build>
+	<repositories>
+
+		<repository>
+			<id>central</id>
+			<url>http://18.221.82.129:8081/artifactory/generic-local</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
+		<repository>
+			<id>snapshots</id>
+			<url>http://18.221.82.129:8081/artifactory/generic-local</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</repository>
+
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>central</id>
+			<url>http://18.221.82.129:8081/artifactory/generic-local</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+
+		<pluginRepository>
+			<id>snapshots</id>
+			<url>http://18.221.82.129:8081/artifactory/generic-local</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</pluginRepository>
+
+	</pluginRepositories>
+
 
 
 </project>
