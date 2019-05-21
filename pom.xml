@@ -46,44 +46,18 @@
 		
  
 	</build>
-	<repositories>
-
-		<repository>
-			<id>central</id>
-			<url>http://18.221.82.129:8081/artifactory/generic-local</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-
-		<repository>
-			<id>snapshots</id>
-			<url>http://18.221.82.129:8081/artifactory/generic-local</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</repository>
-
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>central</id>
-			<url>http://18.221.82.129:8081/artifactory/generic-local</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-
-		<pluginRepository>
-			<id>snapshots</id>
-			<url>http://18.221.82.129:8081/artifactory/generic-local</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</pluginRepository>
-
-	</pluginRepositories>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-4-126-releases</name>
+        <url>http://18.221.82.129:8081/artifactory/testmaven</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-4-126-snapshots</name>
+        <url>http://18.221.82.129:8081/artifactory/testmaven</url>
+    </snapshotRepository>
+</distributionManagement>
 
 
 </project>
