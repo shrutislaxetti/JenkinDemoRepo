@@ -34,15 +34,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			
-		</plugins>
-		 
-	</build>
-
-
 <build>
     <plugins>
          <plugin>
