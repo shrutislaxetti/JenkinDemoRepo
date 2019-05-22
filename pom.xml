@@ -49,12 +49,12 @@
     <repository>
         <id>central</id>
         <name>ip-172-31-4-126-releases</name>
-        <url>http://18.221.82.129:8081/artifactory/mavennew</url>
+        <url>http://13.59.34.206:8081/artifactory/mavennew</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-4-126-snapshots</name>
-        <url>http://18.221.82.129:8081/artifactory/mavennew-snapshot</url>
+        <url>http://13.59.34.206:8081/artifactory/mavennew-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 
