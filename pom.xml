@@ -60,6 +60,11 @@
                             <repoKey>mavennew</repoKey>
                             <snapshotRepoKey>mavennew-snapshot</snapshotRepoKey>
                         </publisher>
+			 <deployProperties>
+                             <groupId>${project.groupId}</groupId>
+                             <artifactId>${project.artifactId}</artifactId>
+                             <version>${project.version}</version>
+                        </deployProperties>
                     </configuration>
                 </execution>
             </executions>
