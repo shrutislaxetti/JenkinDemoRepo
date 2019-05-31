@@ -42,14 +42,14 @@
 </build>
 <distributionManagement>
   <repository>
-    <id>releases</id>
+    <id>mavennew</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://192.168.0.1:8081/nexus/content/repositories/releases/</url>
+    <url>http://18.220.118.114:8081/artifactory/mavennew/</url>
   </repository>
   <snapshotRepository>
-    <id>snapshots</id>
+    <id>mavennew-snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://192.168.0.1:8081/nexus/content/repositories/snapshots/</url>
+    <url>http://18.220.118.114:8081/artifactory/mavennew-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 
